@@ -55,6 +55,8 @@ The **[review](review/)** folder has one file per language. It lists the most re
 
 After that, the best help is simply playing in your language and fixing whatever reads badly. Older lines were machine translated too.
 
+If you spot the same mistake in many lines (missing accents, the wrong word for a game term), tell us in Discord instead of fixing them one by one. We can fix them all at once.
+
 ## What's in this repo
 
 | Path | What it is |
