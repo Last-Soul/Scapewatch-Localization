@@ -6,7 +6,7 @@ The text in this repository is the text of the game Scapewatch. It's public so p
 
 ## Contributions
 
-By sending a suggestion (in Discord, an issue or a pull request), you agree that:
+By opening a pull request or an issue, you agree that:
 
 - Puzzle Drop Studios may use, change and distribute your translation in Scapewatch and related material, such as the store page and patch notes, for free and without time limit.
 - The translation is your own work, or you have the right to give it.

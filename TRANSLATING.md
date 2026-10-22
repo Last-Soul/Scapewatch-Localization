@@ -59,7 +59,7 @@ The "New Collection!" lines end with a placeholder like `{2}` that is either emp
 
 The same game term must use the same word everywhere: a task in the queue, a task in a tooltip and a task in a chat message are all the same word. Before choosing a word, search your file for how it's already translated. Each `review/<code>.md` starts with a table of your language's current words for the main game terms.
 
-If you think a core term is wrong (for example, the word for "Quest" everywhere), say so in Discord or an issue first. Changing it means changing hundreds of lines at once, and it's easier to do that with a script.
+If you think a core term is wrong (for example, the word for "Quest" everywhere), open an issue first. Changing it means changing hundreds of lines at once, and it's easier to do that with a script.
 
 ## The double-translation trap
 
@@ -112,7 +112,7 @@ The full list of these announcements and their keys:
 
 ## Checking your work in the game
 
-Change the language in **Settings** (or on the login screen), then play a little and look for anything that's still English, cut off, or reads badly. Screenshots of problems are very welcome in Discord, even if you don't know the fix.
+Change the language in **Settings** (or on the login screen), then play a little and look for anything that's still English, cut off, or reads badly. If you find a problem but don't know the fix, [open an issue](https://github.com/Puzzle-Drops/Scapewatch-Localization/issues/new/choose) with a screenshot.
 
 ## What the bot checks
 

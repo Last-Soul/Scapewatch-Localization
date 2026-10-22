@@ -2,33 +2,24 @@
 
 Every piece of text in [Scapewatch](https://store.steampowered.com/app/4671380/Scapewatch_Idle_MMO/), in all 31 languages, lives here. Most languages started as a machine translation and have only been partly checked by native speakers, so some lines read badly. If you speak one of these languages, you can make the game better for everyone who plays in it.
 
-You do not need to know how to code. Pick whichever way of helping suits you below.
+You do not need to know how to code: you can do everything in your web browser with a free GitHub account.
 
 **The repo:** https://github.com/Puzzle-Drops/Scapewatch-Localization
 
 ## How your changes get into the game
 
-1. You suggest a change (in Discord, or as a pull request here).
+1. You open a pull request here with your fix.
 2. A maintainer reviews it and merges it into this repo.
 3. A sync bot checks for merged changes every few hours. It runs the same checks the game's own translations go through, then copies your change into the game's test server.
 4. It ships to everyone with the next game update, and you get credited.
 
 If a change breaks a check (a missing `{0}`, for example), the bot leaves it out and says why in this repo's history. Nothing you do here can break the game.
 
-## Three ways to help
+## How to help
 
-### 1. Tell us in Discord (easiest)
+All suggestions go through GitHub, so nothing gets lost and everyone can see what's been fixed.
 
-Post in the [Scapewatch Discord](https://discord.gg/rBuXwzbzHn) with:
-
-- the language
-- a screenshot, or where in the game you saw it
-- what it says now
-- what it should say
-
-That's it. Someone will make the change.
-
-### 2. Edit it on GitHub in your browser (no tools needed)
+### 1. Edit it on GitHub in your browser (no tools needed)
 
 1. Make a free GitHub account if you don't have one.
 2. Open the `locales` folder and click your language's file (for example `locales/zh-CN.json`).
@@ -38,16 +29,20 @@ That's it. Someone will make the change.
 
    ```
    "Bank": "Banque",
-                ^^^^^^ change this part only
+            ^^^^^^ change this part only
    ```
 
 6. Click **Commit changes**, then **Propose changes**, then **Create pull request**. Say in one line what you changed and why.
 
 You can change as many lines as you like in one pull request.
 
-### 3. Big batches (git)
+### 2. Big batches (git)
 
 If you're reworking a whole language, or you already have your own translation patch (like the community zh-CN userscript), clone this repo, edit `locales/<code>.json` and open one pull request. Run the game with your language selected to check that it reads well in place.
+
+### 3. Found a problem you can't fix yourself?
+
+[Open an issue](https://github.com/Puzzle-Drops/Scapewatch-Localization/issues/new/choose) and pick **Translation problem**. Fill in the language, a screenshot or where in the game you saw it, what it says now, and what it should say if you know. Use an issue too for text that still shows in English, or English that's wrong or unclear.
 
 ## Where to start
 
@@ -55,7 +50,7 @@ The **[review](review/)** folder has one file per language. It lists the most re
 
 After that, the best help is simply playing in your language and fixing whatever reads badly. Older lines were machine translated too.
 
-If you spot the same mistake in many lines (missing accents, the wrong word for a game term), tell us in Discord instead of fixing them one by one. We can fix them all at once.
+If you spot the same mistake in many lines (missing accents, the wrong word for a game term), open an issue instead of fixing them one by one. We can fix them all at once.
 
 ## What's in this repo
 
@@ -68,7 +63,7 @@ If you spot the same mistake in many lines (missing accents, the wrong word for 
 | `TRANSLATING.md` | The rules: placeholders, names, sentence templates, and things to watch out for. Read this before a big batch. |
 | `CONTRIBUTORS.md` | Everyone who has helped. Add your name in your pull request. |
 
-Please don't edit `en.json`, `en-templates.json`, `review/` or the docs. The bot rewrites them from the game. If the English itself is wrong or unclear, open an issue or say so in Discord.
+Please don't edit `en.json`, `en-templates.json`, `review/` or the docs. The bot rewrites them from the game. If the English itself is wrong or unclear, open an issue.
 
 ## The rules in short
 
@@ -77,7 +72,7 @@ Please don't edit `en.json`, `en-templates.json`, `review/` or the docs. The bot
 - **Don't translate player names.** Keep tier tags like `[T3]` exactly as they are.
 - **Use one word for one thing.** If the game calls a task 委托 in one place, it should say 委托 everywhere. Search the file for how something is already translated before you pick a word.
 - **No HTML or code.** Plain text only.
-- **Don't add new keys.** If some text in the game shows in English, tell us in Discord. It usually needs a change to the game, not just a new line here.
+- **Don't add new keys.** If some text in the game shows in English, open an issue. It usually needs a change to the game, not just a new line here.
 
 The full rules are in [TRANSLATING.md](TRANSLATING.md).
 
@@ -118,10 +113,10 @@ The full rules are in [TRANSLATING.md](TRANSLATING.md).
 
 ## Credit
 
-Everyone who helps is listed in [CONTRIBUTORS.md](CONTRIBUTORS.md), and translators are credited in the game's Credits screen. Add the name you'd like to be credited as in your pull request, or tell us in Discord.
+Everyone who helps is listed in [CONTRIBUTORS.md](CONTRIBUTORS.md), and translators are credited in the game's Credits screen. Add the name you'd like to be credited as to CONTRIBUTORS.md in your pull request.
 
 ## Terms
 
-By sending a suggestion or opening a pull request, you agree to the terms in [LICENSE.md](LICENSE.md). In short, Puzzle Drop Studios can use your translation in Scapewatch, and you'll be credited.
+By opening a pull request or an issue, you agree to the terms in [LICENSE.md](LICENSE.md). In short, Puzzle Drop Studios can use your translation in Scapewatch, and you'll be credited.
 
 Thank you for helping!

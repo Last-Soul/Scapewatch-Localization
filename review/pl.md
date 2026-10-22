@@ -6,7 +6,7 @@ This file is generated from the game. Don't edit it; edit the locale file.
 
 ## Your language's words for the main game terms
 
-Use the same words in your fixes. If one of these is wrong everywhere, say so in Discord before changing hundreds of lines.
+Use the same words in your fixes. If one of these is wrong everywhere, open an issue before changing hundreds of lines.
 
 | English | Polski |
 |---|---|

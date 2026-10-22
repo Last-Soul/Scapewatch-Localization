@@ -1,0 +1,39 @@
+name: Translation problem
+description: Text in the game that's wrong, unnatural, cut off, or still in English
+title: "[language] short description"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping! If you know the fix, a pull request is even better: see the README's "Edit it on GitHub in your browser".
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: The language name or code, e.g. Deutsch or zh-CN
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where in the game
+      description: A screenshot (paste or drag it in here), or where you saw it
+    validations:
+      required: true
+  - type: textarea
+    id: now
+    attributes:
+      label: What it says now
+    validations:
+      required: true
+  - type: textarea
+    id: should
+    attributes:
+      label: What it should say
+      description: If you know. Leave it empty if you're not sure.
+  - type: checkboxes
+    id: many
+    attributes:
+      label: Scope
+      options:
+        - label: The same mistake appears in many lines (e.g. missing accents, or the wrong word for a game term)
