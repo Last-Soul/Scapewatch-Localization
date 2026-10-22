@@ -8336,7 +8336,7 @@
   "@task_completed": "{0} feladat teljesitve: {1}",
   "@open_chest": "Megnyitas {0} {1} XP-ert +{2, plural, one {# zsakmanydobas} other {# zsakmanydobas}}",
   "@tier_tag": "{0} [{1}]",
-  "@level_up": "Szintlepes! {0} most {1}. szintu.",
+  "@level_up": "Szintlépés! {0} most {1}. szintű.",
   "@quest_begun": "Kuldetes elkezdve: {0}",
   "@quest_complete": "Kuldetes teljesitve: {0}",
   "@quest_step": "Kuldetes lepes: {0} ({1}/{2})",
