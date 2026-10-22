@@ -6,6 +6,7 @@ Thank you to everyone who has helped translate Scapewatch. Add the name you'd li
 
 - ChiliMud
 - Sparkling
+- Last_Soul
 
 ## Community extensions
 
